@@ -16,7 +16,7 @@
                <children>
                   <ImageView fitHeight="65.0" fitWidth="600.0" layoutX="157.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../../Pictures/univ%20poitiers.png" />
+                        <Image url="@univ%20poitiers.png" />
                      </image>
                   </ImageView>
                </children>
@@ -25,7 +25,7 @@
                <children>
                   <ButtonBar prefHeight="42.0" prefWidth="598.0" AnchorPane.bottomAnchor="285.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <buttons>
-                        <Button alignment="CENTER" mnemonicParsing="false" text="TOUS LES ETUDIANTS" textAlignment="CENTER" />
+                        <Button alignment="CENTER" mnemonicParsing="false" prefHeight="28.0" prefWidth="241.0" text="TOUS LES ETUDIANTS" textAlignment="CENTER" />
                         <Button alignment="CENTER" mnemonicParsing="false" text="MODIFIER" textAlignment="CENTER" />
                       <Button contentDisplay="CENTER" mnemonicParsing="false" text="AJOUTER UN ETUDIANT" textAlignment="CENTER" />
                     </buttons>
