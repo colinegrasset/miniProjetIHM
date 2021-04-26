@@ -33,7 +33,7 @@
             <RadioButton layoutX="328.0" layoutY="208.0" mnemonicParsing="false" text="Imageur" />
             <TextField layoutX="134.0" layoutY="19.0" prefHeight="25.0" prefWidth="261.0" />
             <TextField layoutX="134.0" layoutY="64.0" prefHeight="25.0" prefWidth="261.0" />
-            <Button layoutX="341.0" layoutY="253.0" mnemonicParsing="false" text="Button" />
+            <Button layoutX="341.0" layoutY="253.0" mnemonicParsing="false" text="Valider" />
          </children>
       </Pane>
    </children>
