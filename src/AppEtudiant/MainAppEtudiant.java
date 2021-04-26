@@ -3,6 +3,7 @@ package AppEtudiant;
 import java.io.IOException;
 
 import AppEtudiant.model.Etudiant;
+import AppEtudiant.view.ListeEtudiantController;
 import javafx.application.Application;
 import java.util.List;
 import java.util.ArrayList;
@@ -74,6 +75,11 @@ public class MainAppEtudiant extends Application {
 
             // Set person overview into the center of root layout.
             principalePage.setCenter(personOverview);
+
+            // Give the controller access to the main app.
+            ListeEtudiantController controller = loader.getController();
+            controller.setMainApp(this);
+
         } catch (IOException e) {
             e.printStackTrace();
         }

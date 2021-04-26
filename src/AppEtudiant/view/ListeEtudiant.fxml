@@ -4,13 +4,12 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppEtudiant.model.ListeEtudiant">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppEtudiant.view.ListeEtudiantController">
    <children>
-      <TableView layoutY="14.0" prefHeight="131.0" prefWidth="600.0">
+      <TableView fx:id="tableEtudiant" layoutY="14.0" prefHeight="131.0" prefWidth="600.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="Nom" />
-          <TableColumn prefWidth="75.0" text="Prénom" />
+          <TableColumn fx:id="nomColumn" prefWidth="75.0" text="Nom" />
+          <TableColumn fx:id="prenomColumn" prefWidth="75.0" text="Prénom" />
             <TableColumn prefWidth="130.0" text="Année de naissance" />
             <TableColumn prefWidth="75.0" text="Promotion" />
             <TableColumn prefWidth="75.0" text="Option" />
