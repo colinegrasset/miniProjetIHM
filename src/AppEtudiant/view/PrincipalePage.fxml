@@ -23,11 +23,11 @@
             </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="329.0" prefWidth="598.0">
                <children>
-                  <ButtonBar prefHeight="42.0" prefWidth="598.0" AnchorPane.bottomAnchor="285.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <ButtonBar layoutX="-14.0" minWidth="-Infinity" prefHeight="42.0" prefWidth="600.0" AnchorPane.bottomAnchor="285.0" AnchorPane.leftAnchor="-14.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="0.0">
                     <buttons>
-                        <Button alignment="CENTER" mnemonicParsing="false" prefHeight="28.0" prefWidth="241.0" text="TOUS LES ETUDIANTS" textAlignment="CENTER" />
-                        <Button alignment="CENTER" mnemonicParsing="false" text="MODIFIER" textAlignment="CENTER" />
-                      <Button contentDisplay="CENTER" mnemonicParsing="false" text="AJOUTER UN ETUDIANT" textAlignment="CENTER" />
+                        <Button alignment="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="274.0" text="Tous les etudiants" textAlignment="CENTER" />
+                        <Button alignment="CENTER" mnemonicParsing="false" text="Modifier" textAlignment="CENTER" />
+                      <Button contentDisplay="CENTER" mnemonicParsing="false" prefHeight="25.0" text="Ajouter un etudiant" textAlignment="CENTER" />
                     </buttons>
                   </ButtonBar>
                </children>
